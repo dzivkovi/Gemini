@@ -32,9 +32,10 @@ response = model.generate_content(
 
 # Print the response
 query_response = response.text if response.text else "No response"
-llm_model = response.model_id if hasattr(response, 'model_id') else LLM_MODEL
-
 print(f"Response: {query_response}")
+
+# TODO: Check if there is a better way to get the model name
+llm_model = model._model_name  # if response._model else LLM_MODEL
 print(f"Model: {llm_model}")
 
 # Use to get both input and output token counts

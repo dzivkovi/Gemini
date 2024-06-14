@@ -18,6 +18,7 @@ Ensure you have a Google API key configured as an environment variable named GOO
 - [hi_gemini_omni.py](./hi_gemini_omni.py): Demonstrates how Gemini 1.5 models can handle multimodal inputs.
 - [hi_gemini_chat.py](./hi_gemini_chat.py): Demonstrates chat conversations because they come with history support.
 - [hi_gemini_ask.py](./hi_gemini_ask.py): Shows how to ask a question and receive an answer from the Gemini model.
+- [gemini_models.py](./gemini_models.py): How to get the list of Gemini models.
 - [hi_gemini.py](./hi_gemini.py): Check out how to count tokens in Gemini.
 
 ## Documentation
